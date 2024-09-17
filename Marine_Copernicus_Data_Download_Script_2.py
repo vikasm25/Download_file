@@ -33,7 +33,7 @@ while day < 0:
   end_datetime=endate,
   force_download=True,
   output_directory="G:/Zooplankton/",
-  output_filename="Zooplankton_Data_{}".format(original_date.strftime("%m-%Y"))
+  output_filename="Zooplankton_Data_{}".format(original_date.strftime("%Y-%m"))
 )
     original_date=new_date
     
